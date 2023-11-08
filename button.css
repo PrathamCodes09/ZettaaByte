@@ -1,0 +1,27 @@
+.button{
+    background-color: blue;
+    font-family: 'Segoe UI';
+    border: none;
+    border-radius: 20px; /* Adjust the value to control the roundness */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #3498db; /* Change the background color */
+    color: #fff; /* Change the text color */
+    cursor: pointer;
+}
+.button:hover{
+    background-color: aquamarine;
+}
+
+.register{
+    
+    font-family: 'Segoe UI';
+    border: none;
+    border-radius: 20px; /* Adjust the value to control the roundness */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #7b93ab; /* Change the background color */
+    color: #fff; /* Change the text color */
+    cursor: pointer;
+}
+.register:hover{
+    background-color: aquamarine;
+}

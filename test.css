@@ -1,0 +1,25 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    background-color: black;
+}
+@media (min-width:300px) and (max-width: 495px){
+    .topcontainer{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+}
+.topcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding:5rem;
+    background: linear-gradient(180deg,#232c7a,pink),url(Assets\bg.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
